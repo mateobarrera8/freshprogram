@@ -17,7 +17,6 @@ from werkzeug.sansio.response import Response
 from werkzeug.utils import cached_property
 from werkzeug.utils import redirect as _wz_redirect
 
-import typing as ft
 from ..config import Config
 from ..config import ConfigAttribute
 from ..ctx import _AppCtxGlobals
